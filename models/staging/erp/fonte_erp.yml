@@ -1,6 +1,6 @@
- sources:
-  - name: erp
-    description: Sistema de vendas da Northwind
+sources:
+  - name: erp 
+    description: Sistema de vendas da Northwind.
     schema: raw_northwind
     database: fea24_11
     tables:
@@ -12,3 +12,6 @@
               - not_null
       - name: products
       - name: suppliers
+      - name: employees
+      - name: orders
+      - name: order_details
